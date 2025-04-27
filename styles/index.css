@@ -60,3 +60,7 @@ body {
     -webkit-text-fill-color: transparent;
     animation: rainbow 3s ease infinite;
 }
+.logo {
+    width: 50px;
+    filter: contrast(1.5);
+}
