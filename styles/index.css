@@ -14,7 +14,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-a {
+.redirect {
     color: white;
     text-decoration: none;
     background-color: white;
@@ -23,7 +23,20 @@ a {
     border-radius: 10px;
     transition: all 0.3s ease;
 }
-a:hover {
+.redirect:hover {
+    text-decoration: underline;
+    padding: 40px;
+}
+.discord {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(79, 194, 230);
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.discord:hover {
     text-decoration: underline;
     padding: 40px;
 }
@@ -31,6 +44,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 @keyframes rainbow {
     0% { background-position: 0% 50%; }
